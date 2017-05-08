@@ -13,14 +13,14 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 const styles = {
   container: {
     textAlign: 'center',
-    paddingTop: 200,
-  },
+    paddingTop: 200
+  }
 };
 
 const muiTheme = getMuiTheme({
   palette: {
-    accent1Color: deepOrange500,
-  },
+    accent1Color: deepOrange500
+  }
 });
 
 class Main extends Component {
@@ -28,19 +28,19 @@ class Main extends Component {
     super(props, context);
 
     this.state = {
-      open: false,
+      open: false
     };
   }
 
   handleRequestClose = () => {
     this.setState({
-      open: false,
+      open: false
     });
   }
 
   handleTouchTap = () => {
     this.setState({
-      open: true,
+      open: true
     });
   }
 
